@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
+    color: whitesmoke;
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
@@ -36,6 +36,7 @@ nav ul li a {
 h1 {
     font-size: 8em;
     letter-spacing: -2px;
+    color: color-mix(in oklab, blue, white);
 }
 
 h1 strong {
@@ -47,4 +48,16 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h3 {
+    padding-top: 50px;
+    padding-left: 450px;
+    padding-right: 450px;
 }
